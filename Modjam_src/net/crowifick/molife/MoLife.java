@@ -2,6 +2,7 @@ package net.crowifick.molife;
 
 import java.util.logging.Logger;
 
+import net.crowifick.molife.blocks.MOBlocks;
 import net.crowifick.molife.client.proxys.CommonProxy;
 import net.crowifick.molife.core.config.Config;
 import net.crowifick.molife.core.info.Info;
@@ -34,6 +35,8 @@ public class MoLife {
 		
 		Configuration config = new Configuration(event.getSuggestedConfigurationFile());
 		Config.load(config);
+		
+		MOBlocks.init();
 		
 	}
 	

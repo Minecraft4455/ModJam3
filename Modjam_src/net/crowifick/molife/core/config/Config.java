@@ -22,6 +22,8 @@ public class Config {
 		
 	}
 	
+	public static @CfgID(block = true) int BlackHifleID = 3000;
+	
 	public static void load(Configuration config) {
 
 		try {
