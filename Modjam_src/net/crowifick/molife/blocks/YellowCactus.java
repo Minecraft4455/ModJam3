@@ -29,6 +29,7 @@ public class YellowCactus extends Block implements IPlantable {
 		super(par1, Material.cactus);
 		this.setTickRandomly(true);
 		this.setCreativeTab(CreativeTabs.tabDecorations);
+		this.setHardness(1.9F);
 	}
 
 	public void updateTick(World par1World, int par2, int par3, int par4,
