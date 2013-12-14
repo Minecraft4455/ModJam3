@@ -6,6 +6,7 @@ import net.crowifick.molife.blocks.MOBlocks;
 import net.crowifick.molife.client.proxys.CommonProxy;
 import net.crowifick.molife.core.config.Config;
 import net.crowifick.molife.core.info.Info;
+import net.crowifick.molife.recipes.MORecipes;
 import net.minecraftforge.common.Configuration;
 import cpw.mods.fml.common.FMLLog;
 import cpw.mods.fml.common.Mod;
@@ -37,6 +38,7 @@ public class MoLife {
 		Config.load(config);
 		
 		MOBlocks.init();
+		MORecipes.init();
 		
 	}
 	

@@ -5,6 +5,7 @@ import java.util.Random;
 import net.crowifick.molife.core.info.Info;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockFlower;
+import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IconRegister;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.util.AxisAlignedBB;
@@ -17,7 +18,7 @@ public class BlackHifle extends BlockFlower {
 
 	protected BlackHifle(int id) {
 
-		super(id);
+		super(id, Material.plants);
 		this.setCreativeTab(CreativeTabs.tabDecorations);
 		float f = 0.2F;
 		this.setBlockBounds(0.5F - f, 0.0F, 0.5F - f, 0.5F + f, f * 3.0F,

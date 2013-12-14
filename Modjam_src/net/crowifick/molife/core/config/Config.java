@@ -24,6 +24,10 @@ public class Config {
 	
 	public static @CfgID(block = true) int BlackHifleID = 3000;
 	public static @CfgID(block = true) int FenfroID = 3001;
+	public static @CfgID(block = true) int YellowCactusID = 3002;
+	public static @CfgID(block = true) int YellowCactusBlockID = 3003;
+	public static @CfgID(block = true) int BlueCactusID = 3004;
+	public static @CfgID(block = true) int BlueCactusBlockID = 3005;
 	
 	public static void load(Configuration config) {
 
