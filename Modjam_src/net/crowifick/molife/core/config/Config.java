@@ -23,6 +23,7 @@ public class Config {
 	}
 	
 	public static @CfgID(block = true) int BlackHifleID = 3000;
+	public static @CfgID(block = true) int FenfroID = 3001;
 	
 	public static void load(Configuration config) {
 

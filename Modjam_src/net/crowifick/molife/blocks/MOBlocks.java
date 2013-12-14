@@ -8,6 +8,7 @@ import net.minecraft.block.Block;
 public class MOBlocks {
 
 	public static Block BlackHifle;
+	public static Block Fenfero;
 	
 	public static void init() {
 
@@ -20,18 +21,21 @@ public class MOBlocks {
 	private static void initBlocks() {
 		
 		BlackHifle = new BlackHifle(Config.BlackHifleID).setUnlocalizedName("BlackHifle");
+		Fenfero = new Fenfero(Config.FenfroID).setUnlocalizedName("Fenfero");
 		
 	}
 
 	private static void registerBlocks() {
 
 		GameRegistry.registerBlock(BlackHifle, "BlackHifle");
+		GameRegistry.registerBlock(Fenfero, "Fenfero");
 		
 	}
 
 	private static void addNames() {
 		
 		LanguageRegistry.addName(BlackHifle, "Black Hifle");
+		LanguageRegistry.addName(Fenfero, "Fenfero");
 		
 	}
 	
