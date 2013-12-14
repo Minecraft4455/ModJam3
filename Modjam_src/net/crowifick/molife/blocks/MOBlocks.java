@@ -11,6 +11,8 @@ public class MOBlocks {
 	public static Block Fenfero;
 	public static Block YellowCactus;
 	public static Block YellowCactusBlock;
+	public static Block BlueCactus;
+	public static Block BlueCactusBlock;
 	
 	public static void init() {
 
@@ -26,6 +28,8 @@ public class MOBlocks {
 		Fenfero = new Fenfero(Config.FenfroID).setUnlocalizedName("Fenfero");
 		YellowCactus = new YellowCactus(Config.YellowCactusID).setUnlocalizedName("YellowCactus");
 		YellowCactusBlock = new YellowCactusBlock(Config.YellowCactusBlockID).setUnlocalizedName("YellowCactusBlock");
+		BlueCactus = new BlueCactus(Config.BlueCactusID).setUnlocalizedName("BlueCactus");
+		BlueCactusBlock = new BlueCactusBlock(Config.BlueCactusBlockID).setUnlocalizedName("BlueCactusBlock");
 		
 	}
 
@@ -35,6 +39,7 @@ public class MOBlocks {
 		GameRegistry.registerBlock(Fenfero, "Fenfero");
 		GameRegistry.registerBlock(YellowCactus, "YellowCactus");
 		GameRegistry.registerBlock(YellowCactusBlock, "YellowCactusBlock");
+		GameRegistry.registerBlock(BlueCactusBlock, "BlueCactusBlock");
 		
 	}
 
@@ -44,6 +49,7 @@ public class MOBlocks {
 		LanguageRegistry.addName(Fenfero, "Fenfero");
 		LanguageRegistry.addName(YellowCactus, "Yellow Cactus");
 		LanguageRegistry.addName(YellowCactusBlock, "Yellow Cactus Block");
+		LanguageRegistry.addName(BlueCactusBlock, "Blue Cactus Block");
 		
 	}
 	

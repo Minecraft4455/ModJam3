@@ -28,6 +28,7 @@ public class Config {
 	public static @CfgID(block = true) int YellowCactusBlockID = 3003;
 	public static @CfgID(block = true) int BlueCactusID = 3004;
 	public static @CfgID(block = true) int BlueCactusBlockID = 3005;
+	public static @CfgID(block = true) int RedCactusID = 3006;
 	
 	public static void load(Configuration config) {
 
